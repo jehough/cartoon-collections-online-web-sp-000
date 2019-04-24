@@ -28,5 +28,6 @@ def find_the_cheese (array)# code an argument here
     if cheese_types.include?(array[i])
       return array[i]
     end
+    i += 1
   end
 end
